@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: none;
+}
+
+.darkblue-bg {
+    background-color: #1F2937;
+}
+
+.lightblue-bg {
+    background-color: #3882F6;
+}
+
+.gray-bg {
+    background-color: #E5E7EB;
+}
+
+.header-logo-text {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.hero-main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.secondary-text {
+    color: #E5E7EB;
+}
+
+.information-header-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.quote-text-style {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.header,
+.section {
+    padding: 15px 250px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links ul {
+    display: flex;
+    gap: 20px;
+}
+
+.section {
+    height: 500px; /* Remove after debugging */
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: max-content;
+    padding: 100px 250px;
+}
+
+.hero-left {
+    flex-direction: column;
+    align-self: start;
+    max-width: 400px;
+}
+
+.hero-left div {
+    margin-bottom: 15px;
+}
+
+.hero-button {
+    color: white;
+    font-weight: 900;
+}
+
+.image-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 250px;
+    background-color: darkgray;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info-bottom {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    max-width: 160px;
+    text-align: center;
+}
+
+.tile-image-placeholder {
+    width: 140px;
+    height: 140px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 815px;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: 700;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.call-to-action-container {
+    display: flex;
+    justify-content: space-between;
+    /* max-width: 1000px; */
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+.call-to-action-button {
+    color: white;
+    font-weight: 700;
+    border: 2px solid white;
+}
+
+.copyright-notice {
+    padding: 40px 0;
+    text-align: center;
+}
